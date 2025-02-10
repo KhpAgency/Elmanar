@@ -11510,25 +11510,26 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-block;
   position: relative;
   z-index: 2;
+  bottom: 50px;
 }
 
 .img-box1 .img1 {
   position: absolute;
-  bottom: 70px;
-  left: 0;
+  top: 70px;
+  left: 90px;
   z-index: 1;
 }
 
 .img-box1 .shape1 {
   position: absolute;
-  bottom: 0;
-  right: 45%;
+  top: -120px;
+  left: -10%;
 }
 
 .img-box1 .shape1 img {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
-  max-width: fit-content;
+  max-width: 110%;
 }
 
 .img-box1 .year-counter {
@@ -17201,4 +17202,14 @@ span.select2-selection.select2-selection--single:focus {
   margin-top: 0px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+}
+/* my css */
+.about-h1{
+  color: #3A4912 !important;
+}
+.img2{
+  width: 50%;
+}
+.img1{
+  width: 50%;
 }
