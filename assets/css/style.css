@@ -6429,11 +6429,11 @@ ol.wp-block-rss {
 }
 
 .footer-layout2 a:hover {
-  color: var(--theme-color2) !important;
+  color: var(--theme-color) !important;
 }
 
 .footer-layout2 a:hover:before {
-  color: var(--theme-color2) !important;
+  color: var(--theme-color) !important;
 }
 
 .footer-layout2 .th-social a {
@@ -6520,7 +6520,7 @@ ol.wp-block-rss {
   line-height: 32px;
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.08);
-  color: var(--theme-color2);
+  color:white;
   border-radius: 6px;
   text-align: center;
   margin-right: 10px;
@@ -17201,4 +17201,10 @@ span.select2-selection.select2-selection--single:focus {
   margin-top: 0px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+}
+.info-box_text span{
+  color: white;
+}
+#service-sec{
+  background-position: right;
 }
