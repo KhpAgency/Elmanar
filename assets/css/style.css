@@ -5458,7 +5458,7 @@ ol.wp-block-rss {
 /* Header 1 ---------------------------------- */
 .header-layout1 {
   position: relative;
-  background-image: url('../images/photos/header@2x.png');
+  background-image: url('../images/photos/header@2x.png') !important;
   background-size: contain;
 }
 
