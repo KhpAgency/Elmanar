@@ -6095,11 +6095,11 @@ ol.wp-block-rss {
 }
 
 .copyright-wrap .copyright-text a {
-  color: var(--theme-color2);
+  color: #fff;
 }
 
 .copyright-wrap .copyright-text a:hover {
-  color: var(--title-color);
+  color:#3A4912 !important;
 }
 
 .copyright-wrap.bg-title .copyright-text a:hover {
@@ -17279,4 +17279,18 @@ span.select2-selection.select2-selection--single:focus {
 }
 .darkgreen{
 color: #3A4912 !important;
+}
+.contactsection{
+    width: 70%;
+    display: flex;
+    justify-self: center;
+}
+.center{
+  justify-self: center;
+}
+.fontsize{
+  font-size: 50px !important;
+}
+.contact-feature .bg-title{
+  background-color: #3A4912 !important;
 }
