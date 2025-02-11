@@ -54,6 +54,8 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -224,33 +226,6 @@
 	Header Area
 ==============================-->
     <header class="th-header header-layout1">
-        <div class="header-top">
-            <div class="container">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <p class="header-notice">Orders of $50 or more qualify for free shipping!</p>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <ul>
-                                <li class="d-none d-sm-inline-block"><i class="fal fa-location-dot"></i><a
-                                        href="https://www.google.com/maps">8502 Preston Rd. Inglewood, Maine 98380</a>
-                                </li>
-                                <li>
-                                    <div class="social-links">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
             <div class="menu-area">
@@ -258,66 +233,28 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="Frutin"></a>
+                                <a href="index.html"><img src="assets/images/green-logo.png" alt="elmanar"></a>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-7">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="index.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Organic Farm</a></li>
-                                            <li><a href="home-organic-food.html">Organic Food</a></li>
-                                            <li><a href="home-mega-shop.html">Mega Shop</a></li>
-                                            <li><a href="indexing.html">Organic Farming</a></li>
-                                        </ul>
+                                    <li>
+                                        <a class="darkgreen" href="index.html">Home</a>
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Service</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="categories.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="project.html">Project Gallery</a></li>
-                                            <li><a href="project-details.html">Project Details</a></li>
-                                            <li><a href="faq.html">Faq Page</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                    <li><a class="darkgreen" href="about.html">About Us</a></li>
+                                    <li>
+                                        <a class="darkgreen" href="categories.html">Our Categories</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a class="darkgreen" href="contact.html">Contact Us </a>
                                     </li>
                                 </ul>
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-lg-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
-                        <div class="col-auto d-none d-xl-block">
+                        <!-- <div class="col-auto d-none d-xl-block">
                             <div class="header-button">
                                 <button type="button" class="simple-icon searchBoxToggler"><i
                                         class="far fa-search"></i></button>
@@ -328,7 +265,7 @@
                                 <a href="shop.html" class="th-btn style4">Shop Now<i
                                         class="fas fa-chevrons-right ms-2"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -343,7 +280,7 @@
                 <h1 class="breadcumb-title about-h1">About Us</h1>
                 <ul class="breadcumb-menu">
                     <li><a class="about-h1" href="index.html">Home</a></li>
-                    <li>About Us</li>
+                    <li><span class="greenclass">About Us </span></li>
                 </ul>
             </div>
         </div>
@@ -514,49 +451,50 @@ Counter Area
     </div><!--==============================
 Feature Area  
 ==============================-->
-    
-<!--==============================
+
+    <!--==============================
 Cta Area  
 ==============================-->
 
-<section class="space">
-    <div class="container z-index-common">
-        <div class="row gy-30">
-            <div class="col-xl-6">
-                <div class="offer-block mega-hover" data-bg-color="rgb(174 179 148)">
-                    <div class="box-img fruitswidth">
-                        <img src="assets/images/photos/orange@2x.png" alt="Image">
-                    </div>
-                    <h2 class="h2 box-subtitle greenclass">Vision</h2>
-                    <div class="box-content" data-border="#F3EEC1">
-                        <p class="box-text whiteclass">We aim to be the benchmark company in the fresh produce 
-                            industry, known for our unwavering commitment to quality,
-                            innovation, and customer satisfaction. By continuously
-                            expanding our network of warehouses and enhancing 
-                            our supply chain, we strive to set new standards when
-                            it comes to  freshness and reliability</p>
+    <section class="space">
+        <div class="container z-index-common">
+            <div class="row gy-30">
+                <div class="col-xl-6" data-aos="fade-right">
+                    <div class="offer-block mega-hover" data-bg-color="rgb(174 179 148)">
+                        <div class="box-img fruitswidth">
+                            <img src="assets/images/photos/orange@2x.png" alt="Image">
+                        </div>
+                        <h2 class="h2 box-subtitle greenclass">Vision</h2>
+                        <div class="box-content" data-border="#F3EEC1">
+                            <p class="box-text whiteclass">We aim to be the benchmark company in the fresh produce
+                                industry, known for our unwavering commitment to quality,
+                                innovation, and customer satisfaction. By continuously
+                                expanding our network of warehouses and enhancing
+                                our supply chain, we strive to set new standards when
+                                it comes to freshness and reliability</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="offer-block mega-hover" data-bg-color="rgb(90 128 38 / 55%)">
-                    <div class="box-img fruitswidth">
-                        <img src="assets/images/photos/potatos@2x.png" alt="Image">
-                    </div>
-                    <h2 class="h2 box-subtitle greenclass">Mission</h2>
-                    <div class="box-content" data-border="#D1EDD2">
-                        <p class="box-text whiteclass">Our mission is offering the highest quality fruits and vegetables.
-                            we ensure that our produce is stored under optimal conditions,
-                            maintaining its freshness and quality. Our extensive experience
-                            with consumers allows us to understand their needs and
-                            preferences, enabling us to provide tailored solutions 
-                            that meets the highest standards.</p>
+                <div class="col-xl-6" data-aos="fade-left">
+                    <div class="offer-block mega-hover" data-bg-color="rgb(90 128 38 / 55%)">
+                        <div class="box-img fruitswidth">
+                            <img src="assets/images/photos/potatos@2x.png" alt="Image">
+                        </div>
+                        <h2 class="h2 box-subtitle greenclass">Mission</h2>
+                        <div class="box-content" data-border="#D1EDD2">
+                            <p class="box-text whiteclass">Our mission is offering the highest quality fruits and
+                                vegetables.
+                                we ensure that our produce is stored under optimal conditions,
+                                maintaining its freshness and quality. Our extensive experience
+                                with consumers allows us to understand their needs and
+                                preferences, enabling us to provide tailored solutions
+                                that meets the highest standards.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!--==============================
@@ -593,7 +531,7 @@ Testimonial Area
             </div>
         </div>
     </section>
-    
+
     <!--==============================
 	Footer Area
 ==============================-->
@@ -764,6 +702,10 @@ Testimonial Area
 
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

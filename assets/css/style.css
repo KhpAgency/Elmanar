@@ -5109,7 +5109,7 @@ ol.wp-block-rss {
 }
 
 .main-menu a:hover {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
 }
 
 .main-menu > ul > li {
@@ -5458,6 +5458,8 @@ ol.wp-block-rss {
 /* Header 1 ---------------------------------- */
 .header-layout1 {
   position: relative;
+  background-image: url('../images/photos/header@2x.png');
+  background-size: contain;
 }
 
 .header-layout1 .menu-area {
@@ -17229,7 +17231,7 @@ span.select2-selection.select2-selection--single:focus {
   background-position: right;
 }
 .greenclass{
-  color: #5A8526;
+  color: #5A8526 !important;
 }
 .mlogo{
     position: relative;
@@ -17274,4 +17276,7 @@ span.select2-selection.select2-selection--single:focus {
 #sizes-ul3 li{
   display: list-item;
   margin-left: 20px;
+}
+.darkgreen{
+color: #3A4912 !important;
 }
