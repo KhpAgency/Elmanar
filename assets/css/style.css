@@ -6629,7 +6629,7 @@ ol.wp-block-rss {
 .breadcumb-menu li:last-child {
   padding-right: 0;
   margin-right: 0;
-  color: var(--theme-color);
+  color: white;
 }
 
 .breadcumb-menu li:last-child:after {
@@ -6644,13 +6644,14 @@ ol.wp-block-rss {
   word-break: break-word;
   font-weight: 600;
   font-size: 18px;
-  color: var(--title-color);
+  color: white;
 }
 
 .breadcumb-title {
   margin: -0.14em 0 -0.22em 0;
   line-height: 1.1;
   font-weight: 600;
+  color: white;
 }
 
 @media (min-width: 1300px) {
@@ -6665,6 +6666,7 @@ ol.wp-block-rss {
   overflow: hidden;
   text-align: center;
   margin-top: -10px;
+  background-position: bottom;
 }
 
 /* Large devices */
@@ -11730,7 +11732,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-team .team-desig {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   display: block;
   margin-bottom: -0.45em;
   -webkit-transition: 0.4s ease-in-out;
@@ -11797,7 +11799,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .team-card .box-title {
   margin-bottom: 6px;
-  font-size: 22px;
+  font-size: 26px;
+  color: var(--theme-color2);
 }
 
 .team-card .box-content {
