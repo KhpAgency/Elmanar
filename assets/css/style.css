@@ -11881,7 +11881,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-card_title {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .about-card_desig {
@@ -17221,4 +17221,16 @@ span.select2-selection.select2-selection--single:focus {
 }
 #service-sec{
   background-position: right;
+}
+.color1{
+  color: var(--theme-color);
+}
+.color2{
+  color: var(--theme-color2);
+}
+.team-info ul li span{
+  color: var(--theme-color);
+}
+.team-info ul li p{
+  margin: 0 0 0 20px;
 }
