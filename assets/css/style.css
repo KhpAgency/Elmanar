@@ -17234,3 +17234,24 @@ span.select2-selection.select2-selection--single:focus {
 .team-info ul li p{
   margin: 0 0 0 20px;
 }
+#sizes-ul{
+  list-style: disc;
+}
+#sizes-ul li{
+  display: list-item;
+  margin-left: 20px;
+}
+#sizes-ul2{
+  list-style: disc;
+}
+#sizes-ul2 li{
+  display: list-item;
+  margin-left: 20px;
+}
+#sizes-ul3{
+  list-style: disc;
+}
+#sizes-ul3 li{
+  display: list-item;
+  margin-left: 20px;
+}
