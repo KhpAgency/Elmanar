@@ -5102,8 +5102,8 @@ ol.wp-block-rss {
   display: block;
   position: relative;
   font-weight: 600;
-  font-size: 16px;
-  font-family: var(--body-font);
+  font-size: 20px;
+  font-family: var(--title-font);
   color: var(--title-color);
   text-transform: uppercase;
 }
@@ -13947,6 +13947,7 @@ span.select2-selection.select2-selection--single:focus {
 .process-box .box-title {
   font-weight: 500;
   margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 .process-box .box-img {
@@ -17358,5 +17359,12 @@ color: #3A4912 !important;
   display: block !important;
   width: 250px;
   margin-top: 50px;
+}
+
+.process-box .box-icon img {
+  width: 100%;
+  margin-top: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 }
