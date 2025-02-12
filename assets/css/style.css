@@ -17435,4 +17435,7 @@ color: #3A4912 !important;
     flex-wrap: nowrap;
 
 }
+.mobile-logo img{
+  width: 150px;
+}
 }
