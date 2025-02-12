@@ -17373,4 +17373,7 @@ color: #3A4912 !important;
 .footer-wrapper .widget-area .row {
   text-align: -webkit-center;
 }
+.mobile-logo img{
+  width: 150px;
+}
 }
