@@ -8075,9 +8075,9 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
 
 .hero-2 .hero-img {
   position: absolute;
-  top: 40%;
-  right: 10%;
-  width: 500px;
+  top: 37%;
+  right: 7%;
+  width: 550px;
 }
 
 @media (max-width: 1500px) {
