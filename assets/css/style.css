@@ -17293,3 +17293,7 @@ color: #3A4912 !important;
 .contact-feature .bg-title{
   background-color: #3A4912 !important;
 }
+
+#Varieties1 li {
+  align-items: flex-start;
+}
