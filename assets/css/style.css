@@ -17403,6 +17403,38 @@ color: #3A4912 !important;
   }
 .footer-wrapper .widget-area .row {
   text-align: -webkit-center;
+  }
+.header-layout2 .menu-area {
+    padding-right: 20px;
+}
+.logoarea-mob{
+  height: 100px !important;
+}
+.mobmenu{
+  position: relative;
+  bottom: 85px;
+}
+.header-logo img {
+  width: 120px;
+}
+.hero-1 .hero-shape1, .hero-2 .hero-shape1 {
+  left: 10%;
+  bottom: 370px;
+}
+.hero-2 .hero-img {
+  position: relative;
+  top: unset;
+  right: unset;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+.flexrow{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+
 }
 .mobile-logo img{
   width: 150px;
