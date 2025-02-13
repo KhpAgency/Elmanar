@@ -17299,6 +17299,9 @@ color: #3A4912 !important;
 #Varieties1 li {
   align-items: flex-start;
 }
+.header-layout2 .header-logo img {
+  margin-top: 25px;
+}
 /* mobile */
 @media (max-width: 768px)  {
   .title-area .sec-title {
@@ -17438,5 +17441,8 @@ color: #3A4912 !important;
 }
 .mobile-logo img{
   width: 150px;
+}
+.header-layout2 .header-logo img {
+  margin-top: 0px;
 }
 }
