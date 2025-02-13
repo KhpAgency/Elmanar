@@ -5495,7 +5495,8 @@ ol.wp-block-rss {
     font-size: 36px;
   }
   .header-layout1 .header-logo img {
-    max-width: 160px;
+    max-width: 120px;
+    padding-left: 5px;
   }
 }
 
