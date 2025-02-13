@@ -108,7 +108,7 @@ Version: 1.0.0
   --main-container: 1220px;
   --container-gutters: 24px;
   --section-space: 120px;
-  --section-space-mobile: 80px;
+  --section-space-mobile: 10px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }
@@ -17331,7 +17331,7 @@ color: #3A4912 !important;
 @media (max-width: 768px)  {
   .title-area .sec-title {
     margin-bottom: 18px;
-    font-size: 30px !important;
+    font-size: 26px !important;
     color: var(--theme-color);
   }
 .contact-feature {
@@ -17360,11 +17360,12 @@ color: #3A4912 !important;
   border-radius: 12px;
   text-align: center;
   }
-.title-area p {
-  text-align: justify;
-  color: #000000;
-  font-size: 14px;
-  }
+  .title-area p {
+    text-align: justify;
+    color: #000000;
+    font-size: 14px;
+    padding: 0 30px;
+}
 #service-sec {
   background-position: center;
   }
@@ -17474,5 +17475,17 @@ color: #3A4912 !important;
   width: 70%;
   display: flex;
   justify-self: center;
+}
+.pb-0m{
+  padding-bottom: 0;
+}
+#abt-bc{
+  background-position: right;
+}
+#process-sec{
+  padding: 0 0;
+}
+.about-card {
+  padding: 0 15px;
 }
 }
