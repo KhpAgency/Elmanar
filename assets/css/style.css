@@ -337,6 +337,9 @@ h6 {
 
 /* Large devices */
 @media (max-width: 1199px) {
+  /* .title-area, .sec-title {
+    margin-top: 50px;
+  } */
   .h1,
   h1 {
     font-size: 44px;
@@ -570,6 +573,12 @@ h6 {
 
 /* Medium devices */
 @media (max-width: 991px) {
+  #langbtn{
+    display: none;
+  }
+  #langchar{
+    display: none;
+  }
   .gy-50 {
     --bs-gutter-y: 40px;
   }
@@ -2228,6 +2237,15 @@ hr.title-line {
 
 /* Small devices */
 @media (max-width: 767px) {
+  .img-box1 .img1 img, .img-box1 .img2 img {   
+    margin-top: 70px;
+}
+  #langbtn {
+    display: none;
+  }
+  #langchar{
+    display: none;
+  }
   .title-area2 {
     text-align: center;
   }
@@ -2365,9 +2383,9 @@ hr.title-line {
   transition: 0.4s ease-in-out;
 }
 
-.box-text {
+/* .box-text {
   margin-bottom: -0.5em;
-}
+} */
 
 .btn-group {
   display: -webkit-inline-box;
@@ -14367,11 +14385,27 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 @media (max-width: 767px) {
+  /* .sub-title {
+    padding-top: 50px;
+  } */
   .project-meta {
     -webkit-box-flex: calc(50% - 4px);
     -webkit-flex: calc(50% - 4px);
     -ms-flex: calc(50% - 4px);
     flex: calc(50% - 4px);
+  }
+}
+@media (max-width: 1366px) {
+  .title-area {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .img-box1 .img1 img, .img-box1 .img2 img {
+    padding-top: 50px;
+  }
+  .title-area {
+    padding-top: 50px;
   }
 }
 
@@ -15744,6 +15778,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .title-area .sec-title {
+  margin-top: 30px;
   margin-bottom: 18px;
   font-size: 30px;
   color: var(--theme-color);
@@ -17235,6 +17270,11 @@ span.select2-selection.select2-selection--single:focus {
   transition: 0.4s ease-in-out;
 }
 /* my css */
+#icon-btn style{
+  width: 10px;
+  height: 10px;
+  size: 10;
+}
 .about-h1{
   color: #3A4912 !important;
 }
@@ -17397,9 +17437,9 @@ color: #3A4912 !important;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   }
-.aboutmob{
+/* .aboutmob{
   margin-top: 50px;
-  }
+  } */
 .img-box1 .img1 {
   position: absolute;
   top: 20px;
