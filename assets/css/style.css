@@ -17535,4 +17535,7 @@ color: #3A4912 !important;
 .text-center{
   text-align: center;
 }
+.ar-font{
+  font-family: 'Cairo', sans-serif;
+}
 }
