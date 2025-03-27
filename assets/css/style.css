@@ -108,7 +108,7 @@ Version: 1.0.0
   --main-container: 1220px;
   --container-gutters: 24px;
   --section-space: 120px;
-  --section-space-mobile: 80px;
+  --section-space-mobile: 10px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }
@@ -1589,8 +1589,27 @@ textarea.is-invalid {
   min-width: 170px;
   border-radius: 30px;
 }
+.th-btn:hover {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--theme-color) !important;
+  background-color: var(--white-color);
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 21px 30px;
+  min-width: 170px;
+  border-radius: 30px;
+}
 
-.th-btn:before {
+/* .th-btn:before {
   content: "";
   position: absolute;
   height: 100%;
@@ -1608,7 +1627,7 @@ textarea.is-invalid {
   -webkit-transform-origin: bottom center;
   -ms-transform-origin: bottom center;
   transform-origin: bottom center;
-}
+} */
 
 .th-btn i {
   font-size: 0.95em;
@@ -5495,7 +5514,8 @@ ol.wp-block-rss {
     font-size: 36px;
   }
   .header-layout1 .header-logo img {
-    max-width: 160px;
+    max-width: 120px;
+    padding-left: 5px;
   }
 }
 
@@ -11387,7 +11407,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .contact-feature .box-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   margin-bottom: 4px;
   /* Large devices */
@@ -17281,7 +17301,7 @@ span.select2-selection.select2-selection--single:focus {
 color: #3A4912 !important;
 }
 .contactsection{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-self: center;
 }
@@ -17298,11 +17318,20 @@ color: #3A4912 !important;
 #Varieties1 li {
   align-items: flex-start;
 }
+.header-layout2 .header-logo img {
+  margin-top: 25px;
+}
+.process-box .box-icon img {
+  width: 100%;
+  margin-top: 0px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
 /* mobile */
 @media (max-width: 768px)  {
   .title-area .sec-title {
     margin-bottom: 18px;
-    font-size: 30px !important;
+    font-size: 26px !important;
     color: var(--theme-color);
   }
 .contact-feature {
@@ -17331,11 +17360,12 @@ color: #3A4912 !important;
   border-radius: 12px;
   text-align: center;
   }
-.title-area p {
-  text-align: justify;
-  color: #000000;
-  font-size: 14px;
-  }
+  .title-area p {
+    text-align: justify;
+    color: #000000;
+    font-size: 14px;
+    padding: 0 30px;
+}
 #service-sec {
   background-position: center;
   }
@@ -17437,5 +17467,25 @@ color: #3A4912 !important;
 }
 .mobile-logo img{
   width: 150px;
+}
+.header-layout2 .header-logo img {
+  margin-top: 0px;
+}
+.contactsection{
+  width: 70%;
+  display: flex;
+  justify-self: center;
+}
+.pb-0m{
+  padding-bottom: 0;
+}
+#abt-bc{
+  background-position: right;
+}
+#process-sec{
+  padding: 0 0;
+}
+.about-card {
+  padding: 0 15px;
 }
 }
