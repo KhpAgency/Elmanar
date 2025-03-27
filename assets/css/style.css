@@ -17528,4 +17528,11 @@ color: #3A4912 !important;
 .about-card {
   padding: 0 15px;
 }
+.rtl-ar{
+  direction: rtl;
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
 }
